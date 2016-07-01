@@ -8,20 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		9C7B4FEF1D265596004A1DA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7B4FEE1D265596004A1DA0 /* AppDelegate.swift */; };
-		9C7B4FF11D265596004A1DA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7B4FF01D265596004A1DA0 /* ViewController.swift */; };
-		9C7B4FF41D265596004A1DA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C7B4FF21D265596004A1DA0 /* Main.storyboard */; };
 		9C7B4FF61D265596004A1DA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C7B4FF51D265596004A1DA0 /* Assets.xcassets */; };
-		9C7B4FF91D265596004A1DA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C7B4FF71D265596004A1DA0 /* LaunchScreen.storyboard */; };
+		9C7B50011D2655E3004A1DA0 /* HXHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7B50001D2655E3004A1DA0 /* HXHomeViewController.swift */; };
+		9C7B50031D26619F004A1DA0 /* HXUILabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7B50021D26619F004A1DA0 /* HXUILabelViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9C7B4FEB1D265596004A1DA0 /* SwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C7B4FEB1D265596004A1DA0 /* SwiftStudyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftStudyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C7B4FEE1D265596004A1DA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9C7B4FF01D265596004A1DA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9C7B4FF31D265596004A1DA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C7B4FF51D265596004A1DA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9C7B4FF81D265596004A1DA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C7B4FFA1D265596004A1DA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C7B50001D2655E3004A1DA0 /* HXHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HXHomeViewController.swift; sourceTree = "<group>"; };
+		9C7B50021D26619F004A1DA0 /* HXUILabelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HXUILabelViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +36,7 @@
 		9C7B4FE21D265596004A1DA0 = {
 			isa = PBXGroup;
 			children = (
-				9C7B4FED1D265596004A1DA0 /* SwiftDemo */,
+				9C7B4FED1D265596004A1DA0 /* SwiftStudyDemo */,
 				9C7B4FEC1D265596004A1DA0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +44,53 @@
 		9C7B4FEC1D265596004A1DA0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9C7B4FEB1D265596004A1DA0 /* SwiftDemo.app */,
+				9C7B4FEB1D265596004A1DA0 /* SwiftStudyDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9C7B4FED1D265596004A1DA0 /* SwiftDemo */ = {
+		9C7B4FED1D265596004A1DA0 /* SwiftStudyDemo */ = {
 			isa = PBXGroup;
 			children = (
 				9C7B4FEE1D265596004A1DA0 /* AppDelegate.swift */,
-				9C7B4FF01D265596004A1DA0 /* ViewController.swift */,
-				9C7B4FF21D265596004A1DA0 /* Main.storyboard */,
+				9C7B50061D266EC5004A1DA0 /* UITableView */,
+				9C7B50041D2661A6004A1DA0 /* UILabel */,
+				9C7B50051D266EA9004A1DA0 /* UIButton */,
 				9C7B4FF51D265596004A1DA0 /* Assets.xcassets */,
-				9C7B4FF71D265596004A1DA0 /* LaunchScreen.storyboard */,
 				9C7B4FFA1D265596004A1DA0 /* Info.plist */,
 			);
-			path = SwiftDemo;
+			path = SwiftStudyDemo;
+			sourceTree = "<group>";
+		};
+		9C7B50041D2661A6004A1DA0 /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				9C7B50021D26619F004A1DA0 /* HXUILabelViewController.swift */,
+			);
+			name = UILabel;
+			sourceTree = "<group>";
+		};
+		9C7B50051D266EA9004A1DA0 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UIButton;
+			sourceTree = "<group>";
+		};
+		9C7B50061D266EC5004A1DA0 /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				9C7B50001D2655E3004A1DA0 /* HXHomeViewController.swift */,
+			);
+			name = UITableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9C7B4FEA1D265596004A1DA0 /* SwiftDemo */ = {
+		9C7B4FEA1D265596004A1DA0 /* SwiftStudyDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C7B4FFD1D265596004A1DA0 /* Build configuration list for PBXNativeTarget "SwiftDemo" */;
+			buildConfigurationList = 9C7B4FFD1D265596004A1DA0 /* Build configuration list for PBXNativeTarget "SwiftStudyDemo" */;
 			buildPhases = (
 				9C7B4FE71D265596004A1DA0 /* Sources */,
 				9C7B4FE81D265596004A1DA0 /* Frameworks */,
@@ -79,9 +100,9 @@
 			);
 			dependencies = (
 			);
-			name = SwiftDemo;
+			name = SwiftStudyDemo;
 			productName = SwiftDemo;
-			productReference = 9C7B4FEB1D265596004A1DA0 /* SwiftDemo.app */;
+			productReference = 9C7B4FEB1D265596004A1DA0 /* SwiftStudyDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +120,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9C7B4FE61D265596004A1DA0 /* Build configuration list for PBXProject "SwiftDemo" */;
+			buildConfigurationList = 9C7B4FE61D265596004A1DA0 /* Build configuration list for PBXProject "SwiftStudyDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -112,7 +133,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9C7B4FEA1D265596004A1DA0 /* SwiftDemo */,
+				9C7B4FEA1D265596004A1DA0 /* SwiftStudyDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -122,9 +143,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C7B4FF91D265596004A1DA0 /* LaunchScreen.storyboard in Resources */,
 				9C7B4FF61D265596004A1DA0 /* Assets.xcassets in Resources */,
-				9C7B4FF41D265596004A1DA0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,31 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C7B4FF11D265596004A1DA0 /* ViewController.swift in Sources */,
+				9C7B50031D26619F004A1DA0 /* HXUILabelViewController.swift in Sources */,
+				9C7B50011D2655E3004A1DA0 /* HXHomeViewController.swift in Sources */,
 				9C7B4FEF1D265596004A1DA0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		9C7B4FF21D265596004A1DA0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9C7B4FF31D265596004A1DA0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9C7B4FF71D265596004A1DA0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9C7B4FF81D265596004A1DA0 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9C7B4FFB1D265596004A1DA0 /* Debug */ = {
@@ -247,10 +248,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SwiftDemo/Info.plist;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SwiftStudyDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = blog.libuqing.com.SwiftDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SwiftStudyDemo;
 			};
 			name = Debug;
 		};
@@ -258,17 +260,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SwiftDemo/Info.plist;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SwiftStudyDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = blog.libuqing.com.SwiftDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SwiftStudyDemo;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9C7B4FE61D265596004A1DA0 /* Build configuration list for PBXProject "SwiftDemo" */ = {
+		9C7B4FE61D265596004A1DA0 /* Build configuration list for PBXProject "SwiftStudyDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C7B4FFB1D265596004A1DA0 /* Debug */,
@@ -277,13 +280,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C7B4FFD1D265596004A1DA0 /* Build configuration list for PBXNativeTarget "SwiftDemo" */ = {
+		9C7B4FFD1D265596004A1DA0 /* Build configuration list for PBXNativeTarget "SwiftStudyDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C7B4FFE1D265596004A1DA0 /* Debug */,
 				9C7B4FFF1D265596004A1DA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
