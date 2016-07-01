@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9C7B4FEB1D265596004A1DA0 /* SwiftStudyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftStudyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C7B4FEB1D265596004A1DA0 /* HXSwiftStudyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HXSwiftStudyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C7B4FEE1D265596004A1DA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C7B4FF51D265596004A1DA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C7B4FFA1D265596004A1DA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -36,7 +36,7 @@
 		9C7B4FE21D265596004A1DA0 = {
 			isa = PBXGroup;
 			children = (
-				9C7B4FED1D265596004A1DA0 /* SwiftStudyDemo */,
+				9C7B4FED1D265596004A1DA0 /* HXSwiftStudyDemo */,
 				9C7B4FEC1D265596004A1DA0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,12 +44,12 @@
 		9C7B4FEC1D265596004A1DA0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9C7B4FEB1D265596004A1DA0 /* SwiftStudyDemo.app */,
+				9C7B4FEB1D265596004A1DA0 /* HXSwiftStudyDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9C7B4FED1D265596004A1DA0 /* SwiftStudyDemo */ = {
+		9C7B4FED1D265596004A1DA0 /* HXSwiftStudyDemo */ = {
 			isa = PBXGroup;
 			children = (
 				9C7B4FEE1D265596004A1DA0 /* AppDelegate.swift */,
@@ -59,7 +59,7 @@
 				9C7B4FF51D265596004A1DA0 /* Assets.xcassets */,
 				9C7B4FFA1D265596004A1DA0 /* Info.plist */,
 			);
-			path = SwiftStudyDemo;
+			path = HXSwiftStudyDemo;
 			sourceTree = "<group>";
 		};
 		9C7B50041D2661A6004A1DA0 /* UILabel */ = {
@@ -88,9 +88,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9C7B4FEA1D265596004A1DA0 /* SwiftStudyDemo */ = {
+		9C7B4FEA1D265596004A1DA0 /* HXSwiftStudyDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C7B4FFD1D265596004A1DA0 /* Build configuration list for PBXNativeTarget "SwiftStudyDemo" */;
+			buildConfigurationList = 9C7B4FFD1D265596004A1DA0 /* Build configuration list for PBXNativeTarget "HXSwiftStudyDemo" */;
 			buildPhases = (
 				9C7B4FE71D265596004A1DA0 /* Sources */,
 				9C7B4FE81D265596004A1DA0 /* Frameworks */,
@@ -100,9 +100,9 @@
 			);
 			dependencies = (
 			);
-			name = SwiftStudyDemo;
+			name = HXSwiftStudyDemo;
 			productName = SwiftDemo;
-			productReference = 9C7B4FEB1D265596004A1DA0 /* SwiftStudyDemo.app */;
+			productReference = 9C7B4FEB1D265596004A1DA0 /* HXSwiftStudyDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -120,7 +120,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9C7B4FE61D265596004A1DA0 /* Build configuration list for PBXProject "SwiftStudyDemo" */;
+			buildConfigurationList = 9C7B4FE61D265596004A1DA0 /* Build configuration list for PBXProject "HXSwiftStudyDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -133,7 +133,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9C7B4FEA1D265596004A1DA0 /* SwiftStudyDemo */,
+				9C7B4FEA1D265596004A1DA0 /* HXSwiftStudyDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -249,10 +249,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = SwiftStudyDemo/Info.plist;
+				INFOPLIST_FILE = HXSwiftStudyDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = blog.libuqing.com.SwiftDemo;
-				PRODUCT_NAME = SwiftStudyDemo;
+				PRODUCT_NAME = HXSwiftStudyDemo;
 			};
 			name = Debug;
 		};
@@ -261,17 +261,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = SwiftStudyDemo/Info.plist;
+				INFOPLIST_FILE = HXSwiftStudyDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = blog.libuqing.com.SwiftDemo;
-				PRODUCT_NAME = SwiftStudyDemo;
+				PRODUCT_NAME = HXSwiftStudyDemo;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9C7B4FE61D265596004A1DA0 /* Build configuration list for PBXProject "SwiftStudyDemo" */ = {
+		9C7B4FE61D265596004A1DA0 /* Build configuration list for PBXProject "HXSwiftStudyDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C7B4FFB1D265596004A1DA0 /* Debug */,
@@ -280,7 +280,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C7B4FFD1D265596004A1DA0 /* Build configuration list for PBXNativeTarget "SwiftStudyDemo" */ = {
+		9C7B4FFD1D265596004A1DA0 /* Build configuration list for PBXNativeTarget "HXSwiftStudyDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C7B4FFE1D265596004A1DA0 /* Debug */,
