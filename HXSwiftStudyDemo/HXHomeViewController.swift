@@ -18,12 +18,12 @@ class HXHomeViewController: UIViewController ,UITableViewDelegate, UITableViewDa
         // Do any additional setup after loading the view, typically from a nib.
         self.title = "Swift Study"
         
-        self.dataSouse = ["UILabel","UIButton"]
+        self.dataSouse = ["UILabel","UIButton","UIImageView"]
         
         self.tableView = UITableView(frame:self.view!.frame)
         self.tableView!.delegate = self
         self.tableView!.dataSource = self
-        self.tableView!.registerClass(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        self.tableView!.registerClass(UITableViewCell.self, forCellReuseIdentifier:"cell")
         self.view?.addSubview(self.tableView!)
     }
     
@@ -60,9 +60,18 @@ class HXHomeViewController: UIViewController ,UITableViewDelegate, UITableViewDa
         print("row = %d",indexPath.row)
         if indexPath.row == 0
         {
-            let vc = HXUILabelViewController();
-            self.navigationController!.pushViewController(vc, animated: true);
+            let vc = HXUILabelViewController()
+            self.navigationController!.pushViewController(vc, animated: true)
         }
-        
+        else if indexPath.row == 1
+        {
+            let vc = HXUIButtonViewController()
+            self.navigationController!.pushViewController(vc, animated: true)
+        }
+        else if indexPath.row == 2
+        {
+            let vc = HXUIImageViewViewController()
+            self.navigationController!.pushViewController(vc, animated: true)
+        }
     }
 }

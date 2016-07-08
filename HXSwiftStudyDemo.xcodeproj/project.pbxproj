@@ -11,6 +11,8 @@
 		9C7B4FF61D265596004A1DA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C7B4FF51D265596004A1DA0 /* Assets.xcassets */; };
 		9C7B50011D2655E3004A1DA0 /* HXHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7B50001D2655E3004A1DA0 /* HXHomeViewController.swift */; };
 		9C7B50031D26619F004A1DA0 /* HXUILabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7B50021D26619F004A1DA0 /* HXUILabelViewController.swift */; };
+		E4E9F9A71D2F393100993422 /* HXUIButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E9F9A61D2F393100993422 /* HXUIButtonViewController.swift */; };
+		E4E9F9AA1D2F406100993422 /* HXUIImageViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E9F9A91D2F406100993422 /* HXUIImageViewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		9C7B4FFA1D265596004A1DA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C7B50001D2655E3004A1DA0 /* HXHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HXHomeViewController.swift; sourceTree = "<group>"; };
 		9C7B50021D26619F004A1DA0 /* HXUILabelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HXUILabelViewController.swift; sourceTree = "<group>"; };
+		E4E9F9A61D2F393100993422 /* HXUIButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HXUIButtonViewController.swift; sourceTree = "<group>"; };
+		E4E9F9A91D2F406100993422 /* HXUIImageViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HXUIImageViewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 				9C7B50061D266EC5004A1DA0 /* UITableView */,
 				9C7B50041D2661A6004A1DA0 /* UILabel */,
 				9C7B50051D266EA9004A1DA0 /* UIButton */,
+				E4E9F9A81D2F403E00993422 /* UIImageView */,
 				9C7B4FF51D265596004A1DA0 /* Assets.xcassets */,
 				9C7B4FFA1D265596004A1DA0 /* Info.plist */,
 			);
@@ -73,6 +78,7 @@
 		9C7B50051D266EA9004A1DA0 /* UIButton */ = {
 			isa = PBXGroup;
 			children = (
+				E4E9F9A61D2F393100993422 /* HXUIButtonViewController.swift */,
 			);
 			name = UIButton;
 			sourceTree = "<group>";
@@ -83,6 +89,14 @@
 				9C7B50001D2655E3004A1DA0 /* HXHomeViewController.swift */,
 			);
 			name = UITableView;
+			sourceTree = "<group>";
+		};
+		E4E9F9A81D2F403E00993422 /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				E4E9F9A91D2F406100993422 /* HXUIImageViewViewController.swift */,
+			);
+			name = UIImageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,7 +169,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C7B50031D26619F004A1DA0 /* HXUILabelViewController.swift in Sources */,
+				E4E9F9AA1D2F406100993422 /* HXUIImageViewViewController.swift in Sources */,
 				9C7B50011D2655E3004A1DA0 /* HXHomeViewController.swift in Sources */,
+				E4E9F9A71D2F393100993422 /* HXUIButtonViewController.swift in Sources */,
 				9C7B4FEF1D265596004A1DA0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
